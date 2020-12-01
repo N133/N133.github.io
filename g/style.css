@@ -1,0 +1,131 @@
+body {
+    background-color: #FFF;
+}
+
+.t_item {
+    position: relative;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.character {
+    position: relative;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.w_item {
+    position: relative;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+img {
+    user-select: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10%;
+}
+
+.t_item img {
+    width: 55px;
+}
+
+.character img {
+    border-radius: 0% !important;
+    width: 70px;
+}
+
+.w_item img {
+    width: 45px;
+}
+
+p {
+    text-align: center;
+    margin-block-start: 8px;
+    margin-block-end: 5px;
+}
+
+hr {
+    margin-bottom: 20px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+table {
+    margin: auto;
+    font-size: 12px;
+}
+
+td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tab-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.tab-wrap:after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: DeepSkyBlue;
+    display: block;
+    order: -1;
+}
+
+.tab-label {
+    color: White;
+    background: LightGray;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 0.5em;
+    order: -1;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    flex: 1;
+}
+
+.tab-label:not(:last-of-type) {
+    margin-right: 5px;
+}
+
+.tab-content {
+    background-color: #fff;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+/* アクティブなタブ */
+
+.tab-switch:checked+.tab-label {
+    background: DeepSkyBlue;
+}
+
+.tab-switch:checked+.tab-label+.tab-content {
+    height: auto;
+    overflow: auto;
+    padding: 15px;
+    opacity: 1;
+    transition: 0.5s opacity;
+    /*box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);*/
+}
+
+/* ラジオボタン非表示 */
+
+.tab-switch {
+    display: none;
+}
