@@ -14,6 +14,10 @@
         <!-- #region 日曜日 -->
         <input id="TAB-01" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-01">日</label>
         <div class="tab-content">
+            <div class="character">
+                <p>BOSS</p>
+                <img src="img/m/トワリン.jpg"><img src="img/m/アンドリュス.jpg"><img src="img/m/タルタリヤ.jpg">
+            </div>
         </div>
         <!-- #endregion -->
 
@@ -245,9 +249,9 @@
 
 <script>
     var date = new Date();
-    var dayOfWeek = date.getDay();
+    var week = date.getDay();
     var elements = document.getElementsByClassName("tab-switch");
-    elements[dayOfWeek].checked = true;
+    elements[week].checked = true;
 </script>
 
 </html>
