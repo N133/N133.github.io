@@ -1,20 +1,20 @@
-body {
-    background-color: #FFF;
+body{
+    margin: 0;
 }
 
-.t_item {
+div.t_item {
     position: relative;
     text-align: center;
     padding-bottom: 15px;
 }
 
-.character {
+div.character {
     position: relative;
     text-align: center;
     padding-bottom: 15px;
 }
 
-.w_item {
+div.w_item {
     position: relative;
     text-align: center;
     padding-bottom: 15px;
@@ -22,8 +22,7 @@ body {
 
 img {
     user-select: none;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin: 0 5px;
     border-radius: 10%;
 }
 
@@ -67,10 +66,40 @@ th {
 }
 
 td {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0 5px;
 }
 
+/* footer */
+div.link {
+    text-align: center;
+    width: 100%;
+    background: LightGray;
+    position: fixed;
+    bottom: 0;
+}
+div.links {
+    display: inline-block;
+}
+
+ul.w_link {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0px;
+}
+
+.w_link li {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.w_link li img {
+    max-height: 45px;
+    max-width: 45px;
+}
+
+
+/* tab */
 .tab-wrap {
     display: flex;
     flex-wrap: wrap;
