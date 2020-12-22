@@ -2,6 +2,12 @@ body{
     margin: 0;
 }
 
+div.boss_table {
+    position: relative;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
 div.t_item {
     position: relative;
     text-align: center;
@@ -37,6 +43,24 @@ img {
 
 .w_item img {
     width: 45px;
+}
+
+.boss_img {
+    margin: 0px;
+    width: 50px;
+}
+.b_item {
+    margin: 0px;
+    width: 40px;
+}
+.b_cha {
+    width: 40px;
+}
+.boss_table table,.boss_table td,.boss_table th{
+    border: 1px solid #808080;
+    border-collapse: collapse;
+    padding: 0px;
+    text-align: center;
 }
 
 p {
@@ -157,8 +181,6 @@ ul.w_link {
     transition: 0.5s opacity;
     /*box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);*/
 }
-
-/* ラジオボタン非表示 */
 
 .tab-switch {
     display: none;
