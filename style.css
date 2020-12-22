@@ -57,13 +57,10 @@ img {
     width: 40px;
 }
 .boss_table table,.boss_table td,.boss_table th{
-    border: 1px solid #cccccc;
+    border: 1px solid #808080;
     border-collapse: collapse;
     padding: 0px;
     text-align: center;
-}
-.boss_table .b_towarin tr{
-    background-color: #d9ead3;
 }
 
 p {
