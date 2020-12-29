@@ -29,11 +29,11 @@ div.w_item {
 img {
     user-select: none;
     margin: 0 5px;
-    border-radius: 10%;
 }
 
 .t_item img {
-    width: 55px;
+    width: 50px;
+    border-radius: 10%;
 }
 
 .character img {
@@ -47,18 +47,18 @@ img {
 
 .boss_img {
     margin: 0px;
-    width: 50px;
+    width: 40px;
+    height: 40px;
 }
 
-.b_item {
-    margin: 0px;
+.boss_item {
     width: 40px;
     height: 40px;
 }
 
 .b_cha {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 .boss_table table, .boss_table td, .boss_table th {
@@ -184,7 +184,7 @@ ul.w_link {
 .tab-switch:checked+.tab-label+.tab-content {
     height: auto;
     overflow: auto;
-    padding: 15px;
+    padding: 10px;
     opacity: 1;
     transition: 0.5s opacity;
     /*box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);*/
