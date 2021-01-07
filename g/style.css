@@ -5,7 +5,7 @@ body {
 div.boss_table {
     position: relative;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 div.t_item {
@@ -47,15 +47,15 @@ img {
 
 .boss_img {
     margin: 0px;
-    width: 40px;
+    width: 36px;
 }
 
 .boss_item {
-    height: 40px;
+    height: 36px;
 }
 
 .b_cha {
-    width: 50px;
+    width: 45px;
 }
 
 .boss_table table, .boss_table td, .boss_table th {
@@ -63,6 +63,16 @@ img {
     border-collapse: collapse;
     padding: 0px;
     text-align: center;
+}
+.tenpu_table table, .tenpu_table td, .tenpu_table th{
+    border: 1px solid #808080;
+    border-collapse: collapse;
+    padding: 0px;
+    text-align: center;
+}
+.tenpu_table td, .tenpu_table th{
+    width: 70px;
+    height: 15px;
 }
 
 p {
@@ -111,7 +121,7 @@ div.links {
 }
 
 ul.w_link {
-    margin: 5px;
+    margin: 3px;
     display: flex;
     flex-wrap: wrap;
     padding-inline-start: 0px;
@@ -124,7 +134,7 @@ ul.w_link {
 
 .w_link li img {
     border-radius: 10%;
-    width: 40px;
+    width: 35px;
 }
 
 /* tab */
@@ -181,7 +191,7 @@ ul.w_link {
 .tab-switch:checked+.tab-label+.tab-content {
     height: auto;
     overflow: auto;
-    padding: 10px;
+    padding: 5px;
     opacity: 1;
     transition: 0.5s opacity;
     /*box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);*/
