@@ -8,7 +8,7 @@ div.boss_table {
     padding-bottom: 5px;
 }
 
-div.t_item {
+div.tenpu_up_item {
     position: relative;
     text-align: center;
     padding-bottom: 15px;
@@ -20,7 +20,7 @@ div.character {
     padding-bottom: 15px;
 }
 
-div.w_item {
+div.weapon_up_item {
     position: relative;
     text-align: center;
     padding-bottom: 15px;
@@ -31,7 +31,7 @@ img {
     margin: 0 5px;
 }
 
-.t_item img {
+.tenpu_up_item img {
     border-radius: 10%;
     width: 50px;
 }
@@ -40,7 +40,7 @@ img {
     width: 70px;
 }
 
-.w_item img {
+.weapon_up_item img {
     border-radius: 10%;
     width: 45px;
 }
@@ -50,7 +50,7 @@ img {
     width: 36px;
 }
 
-.boss_item {
+.boss_item_img {
     height: 36px;
 }
 
@@ -58,12 +58,17 @@ img {
     width: 45px;
 }
 
-.boss_table table, .boss_table td, .boss_table th {
+.boss_item_table table, .boss_item_table td, .boss_item_table th {
     border: 1px solid #808080;
     border-collapse: collapse;
     padding: 0px;
     text-align: center;
 }
+
+.tenpu_table {
+    margin: 5px;
+}
+
 .tenpu_table table, .tenpu_table td, .tenpu_table th{
     border: 1px solid #808080;
     border-collapse: collapse;
@@ -199,4 +204,27 @@ ul.w_link {
 
 .tab-switch {
     display: none;
+}
+
+/* Mobile Phone */
+@media screen and (max-width: 480px) {
+    .tenpu_up_item img {
+        border-radius: 10%;
+        width: 40px;
+    }
+
+    .character img {
+        width: 60px;
+    }
+
+    .weapon_up_item img {
+        border-radius: 10%;
+        width: 35px;
+    }
+    .boss_item_table img {
+        margin: 0 3px;
+    }
+    .tenpu_table td {
+        font-size: 11px;
+    }
 }
