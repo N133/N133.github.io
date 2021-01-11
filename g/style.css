@@ -208,6 +208,9 @@ ul.w_link {
 
 /* Mobile Phone */
 @media screen and (max-width: 480px) {
+    img {
+        margin: 0 2px;
+    }
     .tenpu_up_item img {
         border-radius: 10%;
         width: 40px;
@@ -221,9 +224,7 @@ ul.w_link {
         border-radius: 10%;
         width: 30px;
     }
-    .boss_item_table img {
-        margin: 0 3px;
-    }
+
     .tenpu_table td {
         font-size: 11px;
     }
