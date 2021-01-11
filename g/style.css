@@ -214,12 +214,12 @@ ul.w_link {
     }
 
     .character img {
-        width: 60px;
+        width: 50px;
     }
 
     .weapon_up_item img {
         border-radius: 10%;
-        width: 35px;
+        width: 30px;
     }
     .boss_item_table img {
         margin: 0 3px;
