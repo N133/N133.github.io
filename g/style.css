@@ -209,7 +209,7 @@ ul.w_link {
 /* Mobile Phone */
 @media screen and (max-width: 480px) {
     img {
-        margin: 0 2px;
+        margin: 0 1px;
     }
     .tenpu_up_item img {
         border-radius: 10%;
